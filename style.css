@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    width: 99%;
+    border: 1px solid blue;
+  }
+
+  .image-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 5px;
+      row-gap: 20px;
+      border: 1px solid red;
+      /* column-gap: 2px; */
+  }
+
+  .image-holder-1 #img-1 {
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid blue;
+  }
+
+  .image-holder-2 #img-2 {
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid blue;
+  }
+
+  .image-holder-3 #img-3 {
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid blue;
+  }
+
+  .image-holder-4 #img-4 {
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid blue;
+  }
+
+  .image-holder-5 #img-5 {
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid blue;
+  }
+
+  .image-holder-6 #img-6 {
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid blue;
+  }
