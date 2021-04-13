@@ -1,76 +1,93 @@
 body {
-  margin: 0;
-  overflow-x: hidden;
   font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
-  width: 99%;
-}
-
-.top {
-  display: flex;
-  width: 99%;
-  justify-content: space-between;
-  font-size: 20px;
-}
-
-ul li {
-  padding: 5px;
-  display: inline;
-  padding: 20px;
-}
-
-.image-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 5px;
-  row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(1fr, auto);
+  gap: 1rem;
+  margin-right: 0;
 }
 
-.image-holder-1,
-.image-holder-2,
-.image-holder-3,
-.image-holder-4,
-.image-holder-5,
-.image-holder-6 {
-  /* border: 1px solid red; */
-  border-radius: 10px;
-  background-color: #dddddd;
+.cart {
+  border: 1px solid red;
+  padding: 1rem;
+  margin-top: 50px;
+  /* padding: 5px; */
+  width: 20px;
+  height: 20px;
+  margin-right: 50px;
 }
 
-.image-holder-1 #img-1,
-.image-holder-2 #img-2,
-.image-holder-3 #img-3,
-.image-holder-4 #img-4,
-.image-holder-5 #img-5,
-.image-holder-6 #img-6 {
-  width: 30vw;
-  height: 50vh;
+.nav {
+  position: fixed;
+  width: 100vw;
+  height: 150px;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: flex-end;
+
+  /* margin-bottom: 100px; */
 }
 
-#img-1:hover,
-#img-2:hover,
-#img-3:hover,
-#img-4:hover,
-#img-5:hover,
-#img-6:hover {
-  transform: scaleY(1.1);
+.image-holder-1 {
+  text-align: center;
+  margin-top: 200px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.image-holder-1 img {
+  width: 300px;
+  height: 300px;
+}
+
+#img-1:hover {
+  transform: scale(1.05);
 }
 
 .image-info {
   text-align: center;
 }
 
-button {
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 15px;
-  outline: none;
+.image-info h2 {
+}
+
+.image-info h3 {
+}
+
+.image-info p {
+}
+
+.image-info button {
+  border: 0;
+  outline: 0;
   cursor: pointer;
-  background-color: #f7d9d9;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.image-info button:first-of-type {
+  margin-right: 15px;
+  background-color: dodgerblue;
+}
+
+.image-info button:first-of-type:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
+.image-info button:last-of-type {
+  background-color: chocolate;
 }
 
 button:active {
-  transform: translateY(3px);
+    transform: translateY(3px);
 }
+  
