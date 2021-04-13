@@ -29,8 +29,12 @@ body {
   background-color: dodgerblue;
   display: flex;
   justify-content: flex-end;
+}
 
-  /* margin-bottom: 100px; */
+.company {
+  /* border: 1px solid red; */
+  margin-right: 38em;
+  margin-top: 35px;
 }
 
 .image-holder-1 {
