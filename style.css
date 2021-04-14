@@ -85,12 +85,15 @@ body {
 }
 
 .image-info button:first-of-type:hover {
-  color: dodgerblue;
-  background-color: white;
+  background-color: #0f0092;
 }
 
 .image-info button:last-of-type {
   background-color: chocolate;
+}
+
+.image-info button:last-of-type:hover {
+  background-color: #910909;
 }
 
 button:active {
