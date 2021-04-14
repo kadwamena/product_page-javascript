@@ -8,9 +8,7 @@ companyName.className = "company";
 companyName.innerHTML = "Kay Enterprise";
 navigationBar.append(companyName);
 
-let myCartIcon = document.querySelector("span");
-// myCartIcon.className = "cartIcon";
-// navigationBar.append(myCartIcon);
+
 
 let cartCounter = document.createElement("div");
 cartCounter.className = "cart";
